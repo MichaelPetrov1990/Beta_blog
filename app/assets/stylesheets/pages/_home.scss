@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+h1 {
+  color: white;
+}
+.jumbotron {
+  background-image: asset-url("typerwriter.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  }
+
+#home-container {
+  padding-top: 15px;
+}

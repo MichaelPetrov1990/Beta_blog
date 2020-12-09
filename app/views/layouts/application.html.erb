@@ -11,9 +11,11 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
-  <body>
+  <body class="d-flex flex-column">
     <%= render 'layouts/navbar' %>
     <%= render 'layouts/messages' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
+
   </body>
 </html>
